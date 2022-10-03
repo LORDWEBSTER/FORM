@@ -1,0 +1,64 @@
+<Html>
+
+<head>
+    <title>
+        Registration Page
+    </title>
+    <b>Registration Page</b>
+</head>
+
+<body bgcolor="White">
+    <br>
+    <br>
+    <form>
+
+        <label> First name </label>
+        <input type="text" name="firstname" size="15" /> <br> <br>
+
+        <label> Last name </label>
+        <input type="text" name="lastname" size="15" /> <br> <br>
+
+        <label> Social Security Number</label>
+        <input type="num" name="Socialsecuritynumber" size="15" /> <br> <br>
+
+
+        <label>
+                  Date Of Birth:
+                  <input type="date" name="dob" required pattern="\d{4}-\d{2}-\d{2}" />
+                  
+                </label>
+    </form>
+
+    <label> Salary </label>
+    <input type="text" name="salary" size="15" /> <br> <br>
+
+
+    <br>
+    <br>
+    <label>   
+    <b>Gender</b>
+    </label><br>
+    <input type="radio" name="male" /> Male <br>
+    <input type="radio" name="female" /> Female <br>
+    <br>
+    <br>
+
+    <label>   
+    Phone :  
+    </label>
+    <input type="text" name="country code" value="+260" size="5" />
+    <input type="text" name="phone" size="15" /> <br> <br> Address
+    <br>
+    <textarea cols="80" rows="5" value="address">  
+    </textarea>
+    <br> <br> Email:
+    <input type="email" id="email" name="email" /> <br>
+    <br> <br> Password:
+    <input type="Password" id="pass" name="pass"> <br>
+    <br> <br> Re-type password:
+    <input type="Password" id="repass" name="repass"> <br> <br>
+    <input type="button" value="Submit" />
+    </form>
+</body>
+
+</html>
